@@ -1,0 +1,329 @@
+.App {
+  
+  text-align: center;
+  
+
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.HomePage{
+  margin-top: 10em;
+  text-align: center;
+}
+
+.Admin{
+  text-align: center;
+}
+
+
+input{
+  width: 25em;
+  padding: 10px;
+  margin-top:2em;
+  
+}
+
+button{
+  padding: 10px;
+  margin-top: 2em;
+}
+
+body{
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+nav{
+  min-height:5em;
+  background-color:#8c50c0;
+  margin-top:-10em;
+  text-decoration:none;
+}
+
+#nav-home{
+  color:#ffffff;
+  font-size:20px;
+  right: 40px;
+  top:15px;
+  position: absolute;
+}
+
+#nav-adm {
+	color: #ffffff;
+	font-size: 20px;
+	right: 40px;
+	top: 2px;
+	position: absolute;
+	padding: 12px;
+	background-color: rgb(222, 167, 235);
+	border-radius: 30%;
+	transition: background-color 0.3s; /* Adding smooth transition */
+  }
+  
+  #nav-adm:hover {
+	background-color: rgb(202, 127, 205); /* Change color on hover */
+  }
+  
+  #nav-adm:active {
+	background-color: rgb(182, 87, 175); /* Change color when pressed */
+  }
+  
+
+#nav-gov{
+	color:#ffffff;
+	font-size:20px;
+	right: 250px;
+	top:2px;
+	position: absolute;
+	padding: 12px;
+	background-color: rgb(222, 167, 235);
+	border-radius: 30%;
+	transition: background-color 0.3s;
+  }
+
+  #nav-gov:hover {
+	background-color: rgb(202, 127, 205); /* Change color on hover */
+  }
+  
+  #nav-gov:active {
+	background-color: rgb(182, 87, 175); /* Change color when pressed */
+  }
+
+#headlogo{
+	width: 80px;
+	height: 60px;
+	left: 40px;
+	top:15px;
+	position: absolute;
+}
+
+#labeldes{
+	color: white;
+	padding: 8px;
+	background-color: rgb(152, 43, 108);
+	border-radius: 10%;
+
+}
+
+#add-govt-body{
+	color: white;
+	padding: 8px;
+	background-color: rgb(187, 22, 0);
+	border-radius: 20%;
+}
+#contents {
+	background: #ffffff;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	padding-left: 45px;
+	padding-right: 45px;
+	box-shadow: 4px 4px 8px #8c50c0;
+	 
+  }
+#box{
+	
+	background-color: rgb(255, 139, 93);
+	width: 300px;
+	border: 15px solid rgb(255, 139, 93);
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 4px 4px 8px #8c50c0;
+  }
+
+  #fundsadd{
+	  color: white;
+  }
+
+#box1pos{
+	left: 150px;
+	top:300px;
+	position: absolute;
+}
+
+#box2pos{
+	right: 150px;
+	top:300px;
+	position: absolute;
+}
+
+#allocate-fund{
+	color: white;
+	padding: 15px;
+	background-color: rgb(187, 22, 0);
+	border-radius: 20%;
+}
+#block {
+	display: block;
+	width: 40%;
+	border: none;
+	background-color: #04AA6D;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+  }
+
+#sanction-fund{
+	color: white;
+	padding: 15px;
+	background-color: rgb(187, 22, 0);
+	border-radius: 20%;
+}
+
+#remaining-balances{
+	position: absolute;
+	margin-top: 2em;
+	
+}
+
+#remaining-balance-with-you{
+	position: absolute;
+	margin-top: -16em;
+	margin-left:68em ;
+}
+
+#headname{
+	left: 110px;
+	top:10px;
+	position: absolute;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #ffffff;
+}
+
+#remaining-balances{
+	left: 110px;
+	top:100px;
+	position: absolute;
+}
+
+#controlname{
+	right: 650px;
+	top:7px;
+	position: absolute;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #0408e2;
+	font-size:34px;
+}
+
+#controlnamegov{
+	right: 580px;
+	top:7px;
+	position: absolute;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #0408e2;
+	font-size:34px;
+}
+#remaining-balance{
+	position: absolute;
+	margin-top: -20em;
+	margin-left:70em ;
+}
+
+select{
+  padding: 10px;
+  width: 27em;
+}
+
+
+/* 171e29 */
+
+table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+	background: #eee; 
+	}
+
+th { 
+	background: #3498db; 
+	color: white; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+	}
+
+
+#Links{
+  text-decoration: none;
+  color:#171e29;
+}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	table { 
+	  	width: 100%; 
+	}
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		/* Label the data */
+		content: attr(data-column);
+
+		color: #000;
+		font-weight: bold;
+	}
+
+}
+
